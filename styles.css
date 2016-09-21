@@ -38,16 +38,26 @@ header {
     padding-bottom: 50px;
     text-align: left;
   }
+
+  header nav ul {
+    display: flex;
+  }
+
   header nav ul li {
-    display: inline-block;
+    display: block;
     margin-right: 20px;
-    height: 14px;
+
   }
   header h1 {
     line-height: 1em;
   }
 
-.heart, .pin, .bubble {fill:#39ADD1;}
+.heart,
+.pin, 
+.bubble {
+  fill:#39ADD1;
+  height: 16px;
+}
 
 .logo {
   width: 250px;
