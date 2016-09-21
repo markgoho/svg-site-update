@@ -81,3 +81,9 @@ footer {
   padding-bottom: 30px;
   color: #ba8058;
 }
+
+@media (max-width: 420px) {
+  .st1 {
+    display: none;
+  }
+}
