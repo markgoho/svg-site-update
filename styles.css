@@ -51,6 +51,13 @@ header {
   margin: 0 auto;
 }
 
+  .logo h1 {
+    color: #EAAA7F;
+    display: none;
+    margin-bottom: -15px;
+    font-size: 1.75em;
+  }
+
 main {
   padding-top: 50px;
 }
@@ -85,5 +92,9 @@ footer {
 @media (max-width: 420px) {
   .st1 {
     display: none;
+  }
+
+  .logo h1 {
+    display: block;
   }
 }
