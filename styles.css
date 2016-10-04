@@ -77,27 +77,6 @@ header {
   height: 16px;
 }
 
-@keyframes grow {
-  
-  30% {
-    transform: scale(1.1);
-  }
-  60% {
-    transform: scale(.9);
-  }
-}
-
-.toe1,
-.toe2,
-.toe3, {
-  transform-origin: 50% 50%;
-}
-
-.logo:hover .toe1 {
-  animation: grow 1s ease-out backwards;
-}
-
-
 .logo {
   width: 250px;
   margin: 0 auto;
@@ -158,8 +137,20 @@ footer {
   color: #ba8058;
 }
 
+.red-st0, .sable-st3, .blacktan-st0 {fill:#BA8058;}
+.red-st1, .fawn-st1, .sable-st1, .blacktan-st2 {fill:#FBFEFF;}
+.red-st2, .fawn-st2, .sable-st2, .blacktan-st3 {fill:#2D3339;}
+.red-st3, .fawn-st0 {fill:#EAAA7F;}
+
+.fawn-st3{fill:#F4C6A6;}
+
+.sable-st0{fill:#844B24;}
+
+.blacktan-st1{fill:#52595F;}
+
+
 @media (max-width: 420px) {
-  .st1 {
+  .logo-name {
     display: none;
   }
 
@@ -167,23 +158,3 @@ footer {
     display: block;
   }
 }
-
-.red-st0{fill:#BA8058;}
-.red-st1{fill:#FBFEFF;}
-.red-st2{fill:#2D3339;}
-.red-st3{fill:#EAAA7F;}
-
-.fawn-st0{fill:#EAAA7F;}
-.fawn-st1{fill:#FBFEFF;}
-.fawn-st2{fill:#2D3339;}
-.fawn-st3{fill:#F4C6A6;}
-
-.sable-st0{fill:#844B24;}
-.sable-st1{fill:#FBFEFF;}
-.sable-st2{fill:#2D3339;}
-.sable-st3{fill:#BA8058;}
-
-.blacktan-st0{fill:#BA8058;}
-.blacktan-st1{fill:#52595F;}
-.blacktan-st2{fill:#FBFEFF;}
-.blacktan-st3{fill:#2D3339;}
